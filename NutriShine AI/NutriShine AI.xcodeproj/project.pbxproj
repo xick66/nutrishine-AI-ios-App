@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A0BB15A52B832E0600B95EF3 /* NutriShine_AIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BB15A42B832E0600B95EF3 /* NutriShine_AIApp.swift */; };
+		A0BB15A72B832E0600B95EF3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BB15A62B832E0600B95EF3 /* ContentView.swift */; };
+		A0BB15A92B832E0700B95EF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0BB15A82B832E0700B95EF3 /* Assets.xcassets */; };
+		A0BB15AD2B832E0700B95EF3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0BB15AC2B832E0700B95EF3 /* Preview Assets.xcassets */; };
+		A0BB15B42B832E3B00B95EF3 /* UploadDocumentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BB15B32B832E3B00B95EF3 /* UploadDocumentsView.swift */; };
+		A0BB15B72B832E6F00B95EF3 /* FoodQueryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BB15B62B832E6F00B95EF3 /* FoodQueryView.swift */; };
+		A0BB15B92B832E8200B95EF3 /* CameraCaptureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BB15B82B832E8200B95EF3 /* CameraCaptureView.swift */; };
+		A0BB15BD2B832EB500B95EF3 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BB15BC2B832EB500B95EF3 /* AppModel.swift */; };
+		A0BB15CE2B8333CE00B95EF3 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BB15CD2B8333CE00B95EF3 /* CameraView.swift */; };
+		A0BB15D42B83389200B95EF3 /* CameraCaptureIntegrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BB15D32B83389200B95EF3 /* CameraCaptureIntegrationView.swift */; };
+		A0BB15D62B833C1600B95EF3 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BB15D52B833C1600B95EF3 /* ImagePicker.swift */; };
+		A0BB15D82B83A3CA00B95EF3 /* AnalysisResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BB15D72B83A3CA00B95EF3 /* AnalysisResultView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A0BB15A12B832E0600B95EF3 /* NutriShine AI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NutriShine AI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0BB15A42B832E0600B95EF3 /* NutriShine_AIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutriShine_AIApp.swift; sourceTree = "<group>"; };
+		A0BB15A62B832E0600B95EF3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A0BB15A82B832E0700B95EF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A0BB15AA2B832E0700B95EF3 /* NutriShine_AI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NutriShine_AI.entitlements; sourceTree = "<group>"; };
+		A0BB15AC2B832E0700B95EF3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A0BB15B32B832E3B00B95EF3 /* UploadDocumentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadDocumentsView.swift; sourceTree = "<group>"; };
+		A0BB15B62B832E6F00B95EF3 /* FoodQueryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodQueryView.swift; sourceTree = "<group>"; };
+		A0BB15B82B832E8200B95EF3 /* CameraCaptureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraCaptureView.swift; sourceTree = "<group>"; };
+		A0BB15BC2B832EB500B95EF3 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		A0BB15CD2B8333CE00B95EF3 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		A0BB15CF2B8334BD00B95EF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0BB15D32B83389200B95EF3 /* CameraCaptureIntegrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraCaptureIntegrationView.swift; sourceTree = "<group>"; };
+		A0BB15D52B833C1600B95EF3 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		A0BB15D72B83A3CA00B95EF3 /* AnalysisResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalysisResultView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0BB159E2B832E0600B95EF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A0BB15982B832E0600B95EF3 = {
+			isa = PBXGroup;
+			children = (
+				A0BB15CF2B8334BD00B95EF3 /* Info.plist */,
+				A0BB15A32B832E0600B95EF3 /* NutriShine AI */,
+				A0BB15A22B832E0600B95EF3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A0BB15A22B832E0600B95EF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0BB15A12B832E0600B95EF3 /* NutriShine AI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0BB15A32B832E0600B95EF3 /* NutriShine AI */ = {
+			isa = PBXGroup;
+			children = (
+				A0BB15A42B832E0600B95EF3 /* NutriShine_AIApp.swift */,
+				A0BB15BE2B832EC700B95EF3 /* Managers */,
+				A0BB15B52B832E5000B95EF3 /* Views */,
+				A0BB15A82B832E0700B95EF3 /* Assets.xcassets */,
+				A0BB15AA2B832E0700B95EF3 /* NutriShine_AI.entitlements */,
+				A0BB15AB2B832E0700B95EF3 /* Preview Content */,
+			);
+			path = "NutriShine AI";
+			sourceTree = "<group>";
+		};
+		A0BB15AB2B832E0700B95EF3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A0BB15AC2B832E0700B95EF3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A0BB15B52B832E5000B95EF3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A0BB15A62B832E0600B95EF3 /* ContentView.swift */,
+				A0BB15CD2B8333CE00B95EF3 /* CameraView.swift */,
+				A0BB15B32B832E3B00B95EF3 /* UploadDocumentsView.swift */,
+				A0BB15B62B832E6F00B95EF3 /* FoodQueryView.swift */,
+				A0BB15B82B832E8200B95EF3 /* CameraCaptureView.swift */,
+				A0BB15D32B83389200B95EF3 /* CameraCaptureIntegrationView.swift */,
+				A0BB15D52B833C1600B95EF3 /* ImagePicker.swift */,
+				A0BB15D72B83A3CA00B95EF3 /* AnalysisResultView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A0BB15BE2B832EC700B95EF3 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				A0BB15BC2B832EB500B95EF3 /* AppModel.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A0BB15A02B832E0600B95EF3 /* NutriShine AI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0BB15B02B832E0700B95EF3 /* Build configuration list for PBXNativeTarget "NutriShine AI" */;
+			buildPhases = (
+				A0BB159D2B832E0600B95EF3 /* Sources */,
+				A0BB159E2B832E0600B95EF3 /* Frameworks */,
+				A0BB159F2B832E0600B95EF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NutriShine AI";
+			productName = "NutriShine AI";
+			productReference = A0BB15A12B832E0600B95EF3 /* NutriShine AI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A0BB15992B832E0600B95EF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					A0BB15A02B832E0600B95EF3 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = A0BB159C2B832E0600B95EF3 /* Build configuration list for PBXProject "NutriShine AI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A0BB15982B832E0600B95EF3;
+			productRefGroup = A0BB15A22B832E0600B95EF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0BB15A02B832E0600B95EF3 /* NutriShine AI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A0BB159F2B832E0600B95EF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0BB15AD2B832E0700B95EF3 /* Preview Assets.xcassets in Resources */,
+				A0BB15A92B832E0700B95EF3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0BB159D2B832E0600B95EF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0BB15BD2B832EB500B95EF3 /* AppModel.swift in Sources */,
+				A0BB15CE2B8333CE00B95EF3 /* CameraView.swift in Sources */,
+				A0BB15A72B832E0600B95EF3 /* ContentView.swift in Sources */,
+				A0BB15B42B832E3B00B95EF3 /* UploadDocumentsView.swift in Sources */,
+				A0BB15A52B832E0600B95EF3 /* NutriShine_AIApp.swift in Sources */,
+				A0BB15B92B832E8200B95EF3 /* CameraCaptureView.swift in Sources */,
+				A0BB15B72B832E6F00B95EF3 /* FoodQueryView.swift in Sources */,
+				A0BB15D42B83389200B95EF3 /* CameraCaptureIntegrationView.swift in Sources */,
+				A0BB15D62B833C1600B95EF3 /* ImagePicker.swift in Sources */,
+				A0BB15D82B83A3CA00B95EF3 /* AnalysisResultView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A0BB15AE2B832E0700B95EF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A0BB15AF2B832E0700B95EF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		A0BB15B12B832E0700B95EF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "NutriShine AI/NutriShine_AI.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NutriShine AI/Preview Content\"";
+				DEVELOPMENT_TEAM = 6PD3X56ZT9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.internbro.NutriShine-AI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A0BB15B22B832E0700B95EF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "NutriShine AI/NutriShine_AI.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NutriShine AI/Preview Content\"";
+				DEVELOPMENT_TEAM = 6PD3X56ZT9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.internbro.NutriShine-AI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0BB159C2B832E0600B95EF3 /* Build configuration list for PBXProject "NutriShine AI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0BB15AE2B832E0700B95EF3 /* Debug */,
+				A0BB15AF2B832E0700B95EF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0BB15B02B832E0700B95EF3 /* Build configuration list for PBXNativeTarget "NutriShine AI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0BB15B12B832E0700B95EF3 /* Debug */,
+				A0BB15B22B832E0700B95EF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A0BB15992B832E0600B95EF3 /* Project object */;
+}
